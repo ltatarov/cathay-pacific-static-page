@@ -1,0 +1,636 @@
+.KA .border-top{border-top:1px solid #d7d7d7;}
+.KA .border-bottom{border-bottom:1px solid #d7d7d7;}
+.KA body, p, div {	color: #4C4C4C;}
+.KA h1.heading {color:#4c4c4c;}
+.KA h1.headingBig{	color: #284c89;}
+.KA  h2 {	color: #4c4c4c;}
+.KA #buttons, .KA .buttons{	border-top: 1px solid #d7d7d7;}
+.KA #buttons input[type=submit],.KA  #buttons input[type=button],.KA  .buttons input[type=button] {	color: #ffffff; background:url(../../img/button_bg.png) repeat-x top left;}
+.KA #buttons input[type=submit]:hover,.KA  #buttons input[type=button]:hover,.KA  .buttons input[type=button]:hover {	color: #ffffff; background:url(../../img/button_bg_ro.png) repeat-x top left;}
+.KA #buttons.redButton input[type=submit],.KA  #buttons.redButton input[type=button],.KA  .buttons.redButton input[type=button] {
+	color: #ffffff;
+  background:url(../../img/button_bg.png) repeat-x top left;
+}
+.KA  #buttons.redButton input[type=submit]:hover,.KA  #buttons.redButton input[type=button]:hover,.KA .buttons.redButton input[type=button]:hover {
+	color: #ffffff;
+  background:url(../../img/button_bg_ro.png) repeat-x top left;
+}
+.KA #imgPlaceholder{
+	background: url("../../img/button_bg_ro.png") no-repeat -9999px -9999px;
+}
+.KA textarea{ border: 1px solid #d7d7d7; background:#FFF;	}
+/*common styles end*/
+
+.KA #inner-panel {
+	background:#FFFFFF;
+}
+.KA #inner-panel .itinerary td{border-color: #D7D7D7!important;
+}
+.KA #header {
+  background-color: #fff;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+
+.KA #header #login {
+  color: #4c4c4c;
+}
+
+/*Header styles end*/
+
+/*Footer styles start*/
+
+.KA #bottom {
+	border-top: 1px solid #D7D7D7;
+	-webkit-box-shadow: inset 1px 4px 6px -4px rgba(102,102,102,0.20);
+	-moz-box-shadow: inset 1px 4px 6px -4px rgba(102,102,102,0.20);
+	box-shadow: inset 1px 4px 6px -4px rgba(102,102,102,0.20);
+}
+.KA #footer ul#footerLogoLinks li.border-top {
+	border-top: 1px solid #D7D7D7;
+}
+
+.KA #footer ul li a {
+	color: #284c89;
+}
+.KA #footer h3 {
+	border-bottom: 1px solid #EBEDEC;
+}
+.KA #footer #asia-miles-logo img{
+	margin-top:4px;
+}
+/*Footer styles end*/
+/*body*/
+.KA .left-arrow-icon {
+	background: url(../../img/next-icon-ka.gif) no-repeat left center;
+	color:#284c89;
+}
+.KA .right-arrow-icon {
+	background: url(../../img/right_arrow_KA.png) no-repeat right top;
+		color:#284c89;
+}
+#pageCONF.KA .right-arrow-icon {
+  background-image: url("../../img/next-icon-ka.gif")\9;
+  *background-image: url("../../img/next-icon-ka.gif");
+  background: url("../../img/next-icon-ka.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block\9;
+  *display: block;
+  background-repeat: no-repeat\9;
+  *background-repeat: no-repeat;
+  display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 43px;
+    padding-right: 0px;
+}
+.KA a {
+	color: #284c89!important;
+}
+.KA a.cal {
+	background: url("../../img/btn-calendar-KA.jpg") no-repeat scroll left center;
+}
+/*button Styles*/
+/*Navigation*/
+
+.KA #navigation { border-bottom: none; background: #510600;margin:0 !important;}
+.KA #navigation ul li span {  background: #510600;  }
+.KA #navigation ul li.been span { background: #510600;  color: #fff; }
+.KA #navigation ul li a {color: #fff !important;}
+.KA #navigation ul li.on span { color: #510600; }
+.KA #navigation ul li.off span {color: #fff;;
+}
+/*Navigation styles end*/
+/*error Panle styles */
+.KA #WDSError,.KA  #imp_info {
+	border: 1px solid #E32020;
+	background: url(../../img/icon-error.png) no-repeat 15px 10px;
+
+	color: #E32020;
+}
+.KA #imp_info strong{    color: #E32020;
+  }
+.KA #WDSErrorContainer h1 {
+	color: #E32020;
+}
+.KA  #WDSErrorContainer li {
+
+	color: #E32020;
+}
+.KA #imp_info strong{
+	color: #E32020;
+}
+/* */
+.KA .calenderTable {
+	border: 1px solid #D6D6D6;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+}
+.KA .calenderTable th {
+	border-left: 1px dotted #f2f2f2;
+	border-right: 1px dotted #f2f2f2;
+}
+.KA .calenderTable th.lastTd {
+	border-right: 1px solid #505050;
+}
+.KA .calenderTable th.firstTd {
+	border-left: 1px solid #505050;
+}
+.KA .calenderTable tr.odd1 th, .calenderTable tr.even1 th {
+	border-right: 1px solid #505050;
+	border-left: 1px solid #505050;
+	border-bottom: 1px dotted #DCDCDC;
+}
+.KA .calenderTable tr th.topTd {
+	border-top: 1px solid #505050;
+}
+.KA .calenderTable tr th.BottomTd {
+	border-bottom: 1px solid #505050;
+}
+.KA .calenderTable tr.horizontal th.dateTopSelectedEffectOff {
+	background: #a59561;
+	border-right: 1px solid #505050!important;
+	border-left: 1px solid #505050;
+	color: #ffffff;
+}
+.KA #FFCL .calenderTable th.first,.KA #FFCC .calenderTable th.first {
+	border-left: 1px solid #505050;
+}
+.KA #FFCL .calenderTable th.last,.KA #FFCC .calenderTable th.last {
+	border-right: 1px solid #505050;
+}
+.KA #FFCL .calenderTable td.first {
+	border-left: 1px solid #D7D7D7;
+}
+.KA #FFCL .calenderTable td.last {
+	border-right: 1px solid #D7D7D7;
+}
+.KA td.business {
+	background: url("../../img/bg-business.gif") no-repeat scroll left top;
+}
+.KA td.lowPrice {
+	background: url("../../img/bg-lowprice.gif") no-repeat scroll left top !important;
+}
+.KA .dateLeftSelectedEffectOff {
+	background: #a59561;
+	border: 1px solid #505050!important;
+}
+.KA .calenderTable td.priceSelectedEffectOff,.KA  .calenderTable td.priceSelectedEffectOn,.KA  .fareFamilyReloaded td.selected {
+	border: 3px solid #a59561 !important;
+	background-color: #dcd3bc !important;
+}
+.KA th.dateTopSelectedEffectOff, .KA th.dateTopSelectedEffectOn,.KA  th.dateLeftSelectedEffectOff,.KA  th.dateLeftSelectedEffectOn {
+	background: #a59561;
+	border: 1px solid #505050!important;
+	color: #ffffff;
+}
+.KA .calenderTable td.priceEffectOn,.KA  .calenderTable tr.priceEffectOn td {
+	background-color: #ffffff;
+	border: 1px solid #505050 ;
+}
+.KA .calenderTable td {
+	border: 1px dotted #DCDCDC;
+}
+.KA #calendar_note,.KA  #calendar_note_PEY {
+	border-bottom: 1px solid #d7d7d7;
+}
+/*FFCC STYLES*/
+.KA pageFFCC .table_FFCC td.priceEffectOn,.KA  #pageFFCC .table_FFCC tr.priceEffectOn td {
+	background-color: #FCF6EA;
+}
+.KA #pageFFCC .itinerary-table td {
+	border-bottom: 1px solid #D7D7D7!important;
+}
+/*FFPC STYLES START*/
+
+.KA td.farecell {
+	background-image: url("../../img/bg_white.gif") !important;
+	background-position: 10px center;
+}
+.KA #pageFFPC #business .itinerary td.selected {
+	background: none repeat scroll 0 0 #dcd3bc !important;
+	border: 3px solid #a59561 !important;
+}
+.KA td.priceEffectOn,.KA  tr.priceEffectOn td {
+	background-color: #FFFFFF !important;
+}
+.KA #pageFFPC #business .itinerary td,.KA  #pageFFPR #business .itinerary td ,.KA  #pageFFCO #business .itinerary td {
+	font-size: 0.9em;
+	border: 1px dotted #d7d7d7!important;
+}
+.KA #pageFFPC #business .itinerary th {
+	border: 1px dotted #d7d7d7!important;
+}
+.KA .flightSelectionTable { border:1px solid #D7D7D7;}
+.KA .flightSelectionTable .head td a{  color:#4d4c4c!important;}
+.KA .flightSelectionTable .head td {color:#4d4c4c!important;}
+.KA .flightSelectionTable .flightSelectedEffectOn td.top{background: #dcd3bc !important;    border-top: 3px solid #a59561 !important;}
+.KA .flightSelectionTable .flightSelectedEffectOn .bottom{background:#dcd3bc !important;    border-bottom: 3px solid #a59561 !important;}
+.KA .flightSelectionTable .flightSelectedEffectOn td.leftTd{background:#dcd3bc !important;    border-left: 3px solid #a59561 !important;}
+.KA .flightSelectionTable .flightSelectedEffectOn .rightTd{background:#dcd3bc !important;    border-right: 3px solid #a59561 !important;}
+.KA .flightSelectionTable tr.selected td {
+    background: none repeat scroll 0 0 #DCD3BC  !important;
+}
+
+.KA tr.flightSelectedEffectOff td,.KA  tr.flightSelectedEffectOn td {
+    background: none repeat scroll 0 0 #dcd3bc !important;
+    border-collapse: separate;
+    border-color: #a59561  !important;
+    border-width: 3px;
+    font-weight: bold !important;
+}
+.KA tr.flightSelectedEffectOff td,.KA  tr.flightSelectedEffectOn td {
+    border-color: #a59561 !important;
+    border-width: 3px !important;
+}
+/*FFPC STYLES END*/
+/*input styles */
+.KA input {
+	border: 1px solid #d9d9d9;
+	color: #4C4C4C;
+}
+.KA input[type=text] ,.KA input[type=password] {
+	border: 1px solid #d7d7d7;
+	background: #ffffff;
+	color: #4C4C4C;
+}
+/* BUTTONS STYLING*/
+
+/*FFPR color codes*//* CSS Document */
+
+.KA table.fareFamilyReloaded {
+	border-top: 1px solid #D4D5D7;
+}
+.KA .fareFamilyReloaded th {
+	background: url("../../img/bg-ffpr-white.gif") repeat-x scroll 0 10px;
+	border-top: 1px solid #D4D5D7;
+	border-bottom: 1px solid #D4D5D7;
+	border-left: 1px dotted #D4D5D7;
+}
+.KA .fareFamilyReloaded td {
+	border: 1px dotted #D4D5D7;
+}
+
+.KA .fareFamilyReloaded th.lastTd,.KA .itinerary-grid td.lastTd ,.KA .itinerary-grid th.lastTd{ border-right:1px solid #d7d7d7!important;}
+.KA .fareFamilyReloaded th.firstTd{ border-left:1px solid #d7d7d7!important;}
+.KA .fareFamilyReloaded td.lastTd{ border-right:1px solid #d7d7d7!important;}
+.KA .fareFamilyReloaded td.firstTd,.KA .itinerary-grid td.firstTd,.KA .itinerary-grid th.firstTd{ border-left:1px solid #d7d7d7!important;}
+.KA .fareFamilyReloaded th.first {
+	color: #4d4c4c;
+	 border-left:1px solid #d7d7d7!important;
+}
+.KA .fareFamilyReloaded td.first div, .benefitsReloaded td.first div {
+	color: #4d4c4c;
+}
+.KA .fareFamilyReloaded th a {
+	color: #284C89;
+}
+.KA #fares .benefitsReloaded td {
+	border: 1px dotted #D4D5D7;
+	background-color: #FFF!important;
+}
+
+.KA #fares .fareFamilyReloaded td {
+	background-color: #FFFFFF!important;
+}
+.KA #fares .highLightedTable td.hovered {
+	border-left: 1px solid #505050;
+   border-right: 1px solid #505050;
+   cursor: pointer;
+}
+.KA #business .fareFamilyReloaded td.selected {
+	background:#dcd3bc !important;
+}
+.KA td.F01 div {
+	border-color: #B3FC6E;
+}
+.KA .benefitsReloaded {
+	border: 1px solid #D7D7D7;
+}
+.KA .benefitsReloaded .first .selected {
+	background: #dcd3bc;
+	border: 3px solid #a59561!important;
+	border-bottom: 1px dotted #D7D7D7!important;
+}
+.KA .benefitsReloaded .last .selected {
+	background: #dcd3bc;
+	border: 3px solid #a59561!important;
+}
+.KA #business .benefitsReloaded .selected {
+	background: #dcd3bc!important;
+	border-left: 3px solid #a59561!important;
+	border-right: 3px solid #a59561!important;
+	border-bottom: 1px dotted #D7D7D7!important;
+}
+.KA #business .benefitsReloaded .topTd {background: #dcd3bc!important;
+	border-left: 3px solid #a59561!important;
+	border-right: 3px solid #a59561!important;
+	border-bottom: 1px dotted #D7D7D7!important;
+	border-top: 3px solid #a59561!important;}
+.KA 	#business .benefitsReloaded .last .bottomTd {background: #dcd3bc!important;
+	border-left: 3px solid #a59561!important;
+	border-right: 3px solid #a59561!important;
+	border-bottom: 3px solid #a59561!important;
+}
+.KA  a span.ico {
+	background: url(../../img/Sprite.png) no-repeat 1px -95px;
+}
+ .KA a span.ico-show {
+	background: url(../../img/Sprite.png) no-repeat -18px -94px;
+}
+.KA .flightSummaryTable {
+	border: 1px solid #d7d7d7;
+}
+.KA span.lastSeat_left {
+	color: #c2262e;
+}
+.KA .icon_pey {
+	color: #FFFFFF;
+}
+.KA .layout1 #business .FFPR-table tr.off td.fare,.KA #pageFFCO .flightSelectionTable tr.off td.fare {
+	background-image: url("../../img/bg_grey.gif")!important;
+	background-position: 10px 50%;
+	background-repeat: repeat-y;
+}
+.KA #business tr.off td {
+	background: none repeat scroll 0 0 #eaeceb;
+}
+.KA .outgoing-icon {
+	background: url(../../img/outgoing-plane.png) no-repeat 12px 51%;
+	color: #284c89!important;
+}
+.KA .return-icon {
+	background: url(../../img/incoming-plane.png) no-repeat 12px 51%;
+	color: #284c89!important;
+}
+.KA th.outgoing-icon h2.heading,.KA  th.return-icon h2.heading {
+	color: #4c4c4c !important;
+}
+.KA th.outgoing-icon a,.KA  th.return-icon a {
+	color: #284c89!important;
+}
+.KA .total-price {
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 2px solid #000000;
+	color: #284c89;
+}
+.KA .darkblackBorder{	border-bottom: 2px solid #000000;}
+.KA .currencyAmountDiv{ background:#eaeceb; padding:5px;}
+.KA .total-price span {
+	color: #4c4c4c !important;
+}
+.KA .itinerary th a {
+	color: #4d4c4c!important;
+}
+.KA 	.itinerary td.first {
+	border-color: white!important;
+}
+.KA .itinerary td.last {
+	border-color: white!important;
+}
+.KA .blacksmalllink {
+	color: #4c4c4c;
+}
+.KA .itinerary td.lgtGryBorderBottom {
+	border-bottom: 1px solid #d7d7d7!important;
+}
+
+.KA td a.sort_up_on span.ico,.KA  td a.sort_up_off span.ico {
+	background-image: url("../../img/icoArrowUpth.gif");
+}
+
+.KA tr.head td a.sort_up_on span.ico,.KA  tr.head td a.sort_up_off span.ico {
+	background-image: url("../../img/icoArrowUpth.gif");
+}
+.KA tr.head td a.sort_down_on span.ico,.KA  tr.head td a.sort_down_off span.ico {
+	background-image: url("../../img/icoArrowDownth.gif");
+}
+.KA th a.sort_up_on span.ico,.KA th a.sort_up_off span.ico {
+	background-image: url("../../img/icoArrowUpth.gif");
+}
+.KA th a.sort_down_on span.ico,.KA th a.sort_down_off span.ico {
+	background-image: url("../../img/icoArrowDownth.gif");
+}
+.KA th a.sort_up_on span.ico,.KA th a.sort_up_off span.ico {
+	background-image: url("../../img/icoArrowUpth.gif");
+}
+.KA tr.head td span.ico, .KA tr th span.ico {
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.KA #pageAVAI .itinerary th, .KA #pageAVAI .itinerary td {
+	border: 1px solid #d7d7d7;
+	border-width: 1px 0 1px 0;
+}
+.KA  #pageAVAI .itinerary-grid td {
+	border: 1px solid #d7d7d7;
+	border-width: 1px 0 1px 0;
+}
+.KA .itinerary-table {
+	border: 1px solid #d7d7d7;
+}
+.KA .itinerary-table td {
+	border-color: #d7d7d7!important;
+	border-width: 1px 0px!important;
+}
+.KA .itinerary tr.selected td.last {
+	border-right: 3px solid #a59561!important;
+}
+.KA .itinerary tr.selected td {
+	border-top: 3px solid #a59561!important;
+	border-bottom: 3px solid #a59561!important;
+	background: #dce6e1;
+}
+.KA .itinerary tr.selected td.first {
+	border-left: 3px solid #a59561!important;
+}
+.KA .itinerary tr.hovered td.last {
+	border-right: 3px solid #D7D7D7!important;
+}
+.KA .itinerary tr.hovered td {
+	border-top: 3px solid #D7D7D7!important;
+	border-bottom: 3px solid #D7D7D7!important;
+	background: #FFFFFF;
+}
+v.itinerary tr.hovered td.first {
+	border-left: 3px solid #D7D7D7!important;
+}
+/* Fare Page*/
+.KA .itinerary-grid{border:1px solid #d7d7d7;}
+.KA .itinerary-grid th ,.KA .itinerary-grid td{ border:1px solid #d7d7d7;border-left:0px!important; border-right:0px!important; border-collapse:collapse;}
+.KA .advPassInfo {
+	background: url(../../img/icon-add-info-ka.png) no-repeat 20px 20px;
+}
+.KA .specialAssistance {
+	background: url(../../img/icon-add-info-ka.png) no-repeat 20px center;
+}
+.KA .bohDeadline {
+  background: url(../../img/icon-add-info-ka.png) no-repeat 20px center;
+}
+.KA #getUpgrade {
+	border: 1px solid #DDDDDD;
+}
+.KA .dync_content_tbl {
+	border-top: 1px solid #D7D7D7;
+	border-bottom: 1px solid #D7D7D7;
+}
+.KA #total .total-price span.redFont,.KA  .redFont {
+	color: #ED1C24 !important;
+}
+.KA .headingH2{ color:#4d4c4c; }
+.KA #WDSWaitingImageDivID p strong{ color:	#284c89;}
+.KA #WDSWaitingImageDivID div.image {
+    background: url("../../img/animation-loading.gif") no-repeat scroll center center rgba(0, 0, 0, 0) !important;
+}
+
+/* Page SEND*/
+.KA #pageSEND textarea{border:1pX solid #D7D7D7;}
+.KA .closePopup{ background:url("../../img/close-icon-ka.png") no-repeat left center;}
+.KA .closePopupGreen {
+    background: url("../../img/close-icon-ka.png") no-repeat scroll left center rgba(0, 0, 0, 0) !important;
+}
+.KA #pageSEND  a{   color: #284c89; }
+.KA #pageSEND  a{   color: #ffffff;}
+.KA ul.greenBullets li{  background: url("../../img/greenbullet.png") no-repeat 0 8px; }
+.KA .borderTopLgGry { border-top:1px solid #D7D7D7;}
+.KA .flifTable td,.KA  .flifTable th{border-top:1px solid #D7D7D7; }
+
+#pageFLIF .warning{ background:none!important; }
+
+
+/*SEAT*/
+.KA #seatdata{ border:1px solid #d7d7d7;}
+.KA #seatdata .wing{ background:#d6d6d6;color:#4d4c4c;}
+.KA table#seatcontainer .itinerary tr.off td{ background:#fff; }
+.KA  table#seatcontainer .itinerary td{ border-top:1px solid #d7d7d7!important;border-bottom:1px solid #d7d7d7!important;}
+.KA .mainDeck{ background:#d7d7d7;}
+.KA .upperDeck{background:#c2262e;}
+.KA .paxs tr.on td{background:#dcd3bc;border-bottom: 3px solid #a59561;border-top: 3px solid #a59561;font-weight: bold;}
+.KA .paxs tr.on td label.css-span{background-position: 0 -134px;font-weight:bold;}
+.KA .paxs tr.on td.seatSelTd{border-right: 3px solid #a59561 !important;}
+.KA .paxs tr.on td.first{border-left: 3px solid #a59561 !important}
+/* LATEST*/
+
+/*PURC*/
+.KA .blackbullets li{ background:url(../../img/blackBullet.gif) no-repeat 0px 11px;}
+.KA .currencyConDiv{ background:#eaeceb;}
+.KA .termsAgreementBox{ background:#eaeceb;}
+.KA .iAgreelbl{ color:#c2262e!important;}
+/* beatuty tips*/
+.KA .bt-wrapper{ background: #336699;}
+/*live chat*/
+
+/*New styles for live chat*/
+
+.KA 	.display-text{
+	background: #fff;
+	background-color:rgba(255,255,255,0.5);
+	}
+.KA 	.display-text:hover{
+	background: #fff;
+	background-color:rgba(255,255,255,1.0);
+	}
+.KA 	.web-chat-image{ background: url(../../img/CX_icon-webchat.png) no-repeat  45% 0% ; }
+.KA 	.web-chat-hover{ background: url(../../img/CX_icon-webchat.png) no-repeat   45% 0%;}
+.KA 	#live-chat-div .display-text div{ color:#005A63;  }
+
+
+/*scroll bar*/
+.KA body{
+  scrollbar-base-color: #C0C0C0;
+ scrollbar-base-color: #C0C0C0;
+  scrollbar-3dlight-color: #C0C0C0;
+ scrollbar-highlight-color: #C0C0C0;
+  scrollbar-track-color: #EBEBEB;
+  scrollbar-arrow-color: black;
+	  scrollbar-shadow-color: #C0C0C0;
+scrollbar-dark-shadow-color: #C0C0C0;
+	}
+ scrollbar {
+/*  clear useragent default style*/
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 	background:#ebebeb;
+}
+/* the sliding part*/
+ thumb{
+	background:#ffffff;
+   border:1px solid #a3a3a3;
+}
+ scrollcorner {
+   -moz-appearance: none !important;
+}
+/* vertical or horizontal */
+ scrollbar[orient="vertical"] {
+    color:silver;
+}
+ ::-webkit-scrollbar {
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 	background:#ebebeb;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+	background:#ffffff;
+   border:1px solid #a3a3a3;
+}
+.KA .web-chat-image{ background: url(../../img/KA_icon-webchat.png) no-repeat  45% 0% ; height:35px; width:100%;}
+.KA .web-chat-hover{ background: url(../../img/KA_icon-webchat.png) no-repeat   45% 0%; height:35px;width:100%;}
+.KA 	#live-chat-div .display-text div{color: #660000;}
+.KA .flight-select-icon{  background: url("../../img/icon-flight-ka.png") no-repeat 0 0 ;}
+#pageFFPC.KA #business .itinerary td.selected {
+    background: none repeat scroll 0 0 #DCD3BC  !important;
+    border: 3px solid #A59561  !important;
+}
+
+
+#pageAVAI.KA  .itinerary-grid .selected.first td {
+    background: none repeat scroll 0 0 #DCD3BC !important;
+    border-bottom: 0 none !important;
+    border-top: 3px solid #A59561 !important;
+}
+
+#pageAVAI.KA  .itinerary-grid .selected td.firstTd {
+    background: none repeat scroll 0 0 #DCD3BC !important;
+    border-left: 3px solid #A59561 !important;
+}
+#pageAVAI.KA  .itinerary-grid .selected.last td {
+    background: none repeat scroll 0 0 #DCD3BC !important;
+    border-bottom: 3px solid #A59561 !important;
+    border-top: 0 none !important;
+}
+#pageAVAI.KA .itinerary-grid .selected td.rightTd {
+    background: none repeat scroll 0 0 #DCD3BC !important;
+    border-right: 3px solid #A59561 !important;
+}
+#pageAVAI.KA .itinerary-grid .selected.first td {
+    background: none repeat scroll 0 0 #DCD3BC !important;
+    border-bottom: 0 none !important;
+    border-top: 3px solid #A59561 !important;
+}
+
+#pageSEAT.KA #seatcontainer .paxs .selected td.bottom {
+    background: none repeat scroll 0 0 #DCD3BC !important;
+    border-bottom: 3px solid #A59561 !important;
+}
+#pageSEAT.KA #seatcontainer .paxs .selected td.leftCol {
+    background: none repeat scroll 0 0 #DCD3BC !important;
+    border-left: 3px solid #A59561 !important;
+}
+#pageSEAT.KA #seatcontainer .paxs .selected td.top {
+    background: none repeat scroll 0 0 #DCD3BC !important;
+    border-top: 3px solid #A59561 !important;
+}
+#pageSEAT.KA #seatcontainer .paxs .selected td.rightCol {
+    background: none repeat scroll 0 0 #DCD3BC !important;
+    border-right: 3px solid #a59561 !important;
+}
+.KA .itinerary-grid td.duration {
+    border: 1px solid #d7d7d7 !important;
+}
+ .KA .cabinUpsellRedirect, .KA .cabinUpsellRedirect1 {
+  color: #284c89 !important;
+
+ }
+.KA .cabinUpsellRedirect:hover,  .KA .cabinUpsellRedirect1:hover{
+  color: #284c89 !important;
+ }

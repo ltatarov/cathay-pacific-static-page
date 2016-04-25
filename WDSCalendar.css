@@ -1,0 +1,298 @@
+#WDSCalendarIdPopup {
+	position:absolute;
+    top: 20px;
+	background: #FFFFFF;
+    border-color: #D7D7D7;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    padding-right: 0.2em;
+    border: 1px solid #D7D7D7;
+    padding:20px;
+    font-size: 1.1em;
+    z-index:1000;
+	padding-bottom:0;
+	visibility: visible;
+}
+
+.WDSCalendarPopup { float:left;}
+
+.WDSCalendarPopup td {
+	background: #FFFFFF;
+}
+
+#WDSCalendarIdPopup iframe {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:0;
+	filter:Alpha(style=0, opacity=0);
+}
+
+#WDSCalendarIdPopup table {
+	position:relative;
+	z-index:0;
+	border-width:0px;
+	width:auto;
+	margin: 0 2px;
+}
+
+#WDSCalendarIdPopup td {
+
+	font-family: ''Aktiv Grotesk W01 Regular', sans-serif;';
+	font-weight: 300;
+	font-size:14px;
+	padding:5px;
+}
+
+.WDSCalendarPopup {
+	display:block;
+	float:left;
+}
+
+.WDSCalendarIcon {
+	font-weight:bold;
+}
+
+.KA #WDSCalendarIdPopup {
+	border-color: #660000;
+}
+
+/*
+	PanelMonth
+*/
+.WDSCalendarPanelMonth tr {
+    color: #FFFFFF;
+    font-weight: bold;
+	padding: 0;
+    position: relative;
+	display: block;
+	height:25px;
+}
+.WDSCalendarPanelMonth tr td{
+    font-size:18px !important;
+    font-weight:normal !important;
+}
+
+td.WDSCalendarPanelMonthActive {
+	line-height: 1.2em;
+	text-align:center;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	background-color:transparent;
+    border-color: #FFFFFF;
+    color: #006564;
+	font-weight:bold;
+	width:175px;
+}
+.KA td.WDSCalendarPanelMonthActive {
+	line-height: 1.2em;
+	text-align:center;
+	border-right: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	background-color:transparent;
+    border-color: #FFFFFF;
+    color: #B8222D;
+	font-weight:bold;
+	width:175px;
+}
+
+td.WDSCalendarPanelMonthEnable, td.WDSCalendarPanelMonthDisable, td.WDSCalendarPanelMonthEnableOver {
+	width: 1.8em;
+	height: 2.2em;
+   	margin-left: -8px;
+    margin-top: -8px;
+    width:18px;
+}
+
+td.WDSCalendarPanelMonthEnableOver {
+	cursor:pointer;
+}
+
+.previousDisable {
+    background: url("../img/cal-left-inactive.gif") no-repeat  center center  transparent!important;
+}
+
+.nextDisable {
+    background: url("../img/cal-right-inactive.gif") no-repeat center center  transparent!important;
+}
+
+.previous,.previousOver {
+    background: url("../img/cal-left-active.gif") no-repeat center center  transparent!important; cursor:pointer;
+}
+
+.next,.nextOver {
+    background: url("../img/cal-right-active.gif") no-repeat  center center transparent!important; cursor:pointer;
+}
+
+/*
+.previousOver {
+    background: url("../img/cal_triangle_buttons.png") no-repeat scroll -29px 4px transparent!important;
+}
+
+.nextOver {
+    background: url("../img/cal_triangle_buttons.png") no-repeat scroll -46px 4px transparent!important;
+}*/
+
+/*
+	PanelCalendar
+*/
+.WDSCalendarPanelCalendar {
+	margin: 0 auto 0.4em;
+    width: 95%;
+    border-collapse: separate;
+    border-spacing: 0px;
+    font-size: 0.9em;
+    margin: 0 0 0.4em;
+    width: 100%;
+}
+
+.WDSCalendarPanelCalendar td {
+    font-weight: normal;
+    text-align: center;
+    padding:0px !important;
+    margin:0px;
+    border-bottom:1px solid #d7d7d7;
+}
+.WDSCalendarPanelCalendar td span{
+    display:block;
+    font-weight: normal;
+    text-align: center;
+    margin:0px;
+	padding:5px;
+	box-sizing:border-box;
+	border-left:3px solid transparent;
+	border-right:3px solid transparent;
+}
+.WDSCalendarPanelCalendarHeader {
+	background-color: #FFFFFF;
+    padding: 0 6px 0 5px !important;
+    text-align: center;
+    width: 19px !important;
+	font-size:12px;
+    color:#006564;
+}
+.KA .WDSCalendarPanelCalendarHeader {
+	background-color: #FFFFFF;
+    padding: 0 3px 0 1px !important;
+    text-align: center;
+    width: 19px !important;
+	font-size:12px;
+    color:	#B8222D;
+}
+
+ #pageFFCC .WDSCalendarPanelCalendarActive span{
+	background-color: #5E967E !important;
+    color: #FFFFFF !important;
+    border-right: 3px solid #006564 !important;
+    border-left: 3px solid #006564 !important;
+    cursor:pointer;
+}
+.WDSCalendarPanelCalendarActive.flexPricerInboundCalendar span{
+	background-color: #5E967E !important;
+    color: #FFFFFF !important;
+    border-right: 3px solid #006564 !important;
+    cursor:pointer;
+}
+.WDSCalendarPanelCalendarActive.flexPricerOutboundCalendar span{
+	background-color: #5E967E !important;
+    color: #FFFFFF !important;
+    border-left: 3px solid #006564 !important;
+    cursor:pointer;
+}
+#pageFFCL .WDSCalendarPanelCalendarActive.flexPricerOutboundCalendar span, #pageFFCO .WDSCalendarPanelCalendarActive.flexPricerOutboundCalendar span{
+    border-right: 3px solid #006564 !important;
+}
+.KA#pageFFCC .WDSCalendarPanelCalendarActive span{
+	background-color: #A59561  !important;
+    color: #FFFFFF !important;
+    border-right: 3px solid #b42230  !important;
+    border-left: 3px solid #b42230  !important;
+    cursor:pointer;
+}
+.KA .WDSCalendarPanelCalendarActive.flexPricerInboundCalendar span{
+	background-color: #A59561  !important;
+    color: #FFFFFF !important;
+    border-right: 3px solid #b42230  !important;
+    cursor:pointer;
+}
+.KA .WDSCalendarPanelCalendarActive.flexPricerOutboundCalendar span{
+	background-color: #A59561  !important;
+    color: #FFFFFF !important;
+    border-left: 3px solid #b42230  !important;
+    cursor:pointer;
+}
+.KA#pageFFCL .WDSCalendarPanelCalendarActive.flexPricerOutboundCalendar span, .KA#pageFFCO .WDSCalendarPanelCalendarActive.flexPricerOutboundCalendar span{
+    border-right: 3px solid #b42230  !important;
+}
+.WDSCalendarPanelCalendarActiveStart {
+	background-color: #5E967E !important;
+    color: #FFFFFF !important;
+    border-left: 3px solid #006564 !important;
+    cursor:pointer;
+}
+.KA .WDSCalendarPanelCalendarActiveStart {
+	background-color: #A59561   !important;
+    color: #FFFFFF !important;
+    border-left: 3px solid #b42230  !important;
+    cursor:pointer;
+}
+
+.WDSCalendarPanelCalendarEnable {
+    color: #000000;
+	padding: 5px;
+}
+
+.WDSCalendarPanelCalendarEnableOver {
+	background-color: #5E967E !important;
+    color: #FFFFFF !important;
+     cursor:pointer;
+}
+.KA .WDSCalendarPanelCalendarEnableOver {
+	background-color: #A59561  !important;
+    color: #FFFFFF !important;
+     cursor:pointer;
+}
+
+.WDSCalendarPanelCalendarEnableOver.WDSCalendarPanelCalendarActive{
+	  border-right: 3px solid #006564 !important;
+	}
+
+.WDSCalendarPanelCalendarDisable {
+    color: #D7D7D7 !important;
+}
+
+.KA .WDSCalendarPanelCalendarEnable {
+    color: #000000;
+	border-left:0px;	border-right:0px;
+}
+
+/*
+	PanelAction
+*/
+.WDSCalendarPanelAction {
+	float: left;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.WDSCalendarPanelActionGo, .WDSCalendarPanelActionGoOver, .WDSCalendarPanelActionClose , .WDSCalendarPanelActionCloseOver {
+	padding-right: 0 !important;
+	padding-left:98px !important;
+    overflow: visible;
+    padding: 0.3em 0.1em;
+    width: 60px;
+    height:25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-align: center !important;
+	vertical-align: top;
+}
+
+.KA .WDSCalendarPanelActionGo, .KA .WDSCalendarPanelActionGoOver, .KA .WDSCalendarPanelActionClose, .KA .WDSCalendarPanelActionCloseOver {
+
+}
+.toFromCol{ background:#ebedec!important; border-top:1px solid #d7d7d7; font-size:14px; color:#4c4c4c;}
+.toFromCol .WDSCalendarPanelTitle td{background:#ebedec!important;font-size:14px; color:#4c4c4c}
+toFromCol .bolder{ font-weight:600;}

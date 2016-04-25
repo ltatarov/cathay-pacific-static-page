@@ -1,0 +1,242 @@
+/* Flight selected */
+tr.first td{border-top:1px solid #d7d7d7;  }
+#pageAVAC .flightSelectionTable tr.first td,#pageAVAI .flightSelectionTable tr.first td{border-top:1px solid #d7d7d7;vertical-align:top  }
+#pageAVAC .flightSelectionTable tr.last td,#pageAVAI .flightSelectionTable tr.last td{vertical-align:top  }
+#pageAVAC .flightSelectionTable th,#pageAVAI .flightSelectionTable th{font-size: 0.75em;font-weight: bold;}
+#pageAVAC .flightSelectionTable th a,#pageAVAI .flightSelectionTable th a{color: #4C4C4C!important;}
+tr.last.flightSelectedEffectOff td,tr.last.flightSelectedEffectOn td {border-bottom: 3px solid #5e967e;}
+td.border-right{border-right:1px solid #d7d7d7;}
+td.fare{border-left:1px solid #d7d7d7;}
+tr.flightSelectedEffectOff td,tr.flightSelectedEffectOn td{border-color: #5e967e!important; border-width: 3px !important;}
+tr.off td { border-color: #d7d7d7!important; }
+.FFCO-table tr.off td { border-bottom:none!important; }
+/* END FIX */
+
+/* Flight with mouse out */
+tr.flightEffectOff td{cursor: pointer;}
+tr.flightEffectOff td.first, tr.flightEffectOff td.fare, tr.flightEffectOff td.duration{cursor: pointer;}
+tr.flightEffectOff td.fare, tr.flightEffectOff td.duration {}
+tr.noborderbottom td.fare, tr.noborderbottom td.duration, tr.noborderbottom td{border-bottom: none!important;}
+tr.flightEffectOff td.end {border-right:1px solid #d7d7d7; }
+tr.flightEffectOff td.fare {border-left:1px solid #d7d7d7; }
+
+/* Flight with mouse over */
+tr.flightEffectOn td {cursor: pointer;}
+tr.flightEffectOn td.fare{border-left:1px solid #505050 !important;cursor: pointer;}
+tr.flightEffectOn td.end, tr.flightEffectOn td.border-right {border-right:1px solid #505050 !important;}
+tr.flightEffectOn.last td {border-bottom: 1px solid #505050!important;}
+tr.flightEffectOn.first td {border-top: 1px solid #505050!important;}
+tr.first td:hovered{border-top:1px solid #505050!important;}
+tr.last td:hovered {border-bottom: 1px solid #505050!important;}
+th.centered{ text-align: center!important;}
+
+/*--*/
+tr.off td.fare{zoom:1;}
+tr.off input{display:none;}
+#business tr.off td.fare{background-image: url(../../img/bg_grey.gif) !important;background-position:10px 50%;background-repeat: repeat-y;}
+tr.off td.first,tr.off td.duration, tr.off td.last, tr.off td.end {background-color:#ccc;}
+tr.off td.end {border-right:1px solid #CCCCCC;}
+tr.flightSelectedEffectOff td, tr.flightSelectedEffectOn td {
+    background: none repeat scroll 0 0 #e2ece7 !important;
+    border-collapse: separate;
+    font-weight: bold !important;
+    border-color:#5e967e !important;
+    border-width: 3px;
+   }
+tr.flightSelectedEffectOn.last td.pre-opico.fare, tr.flightSelectedEffectOn.last td.nopadding  { border-bottom:1px solid #5e967e; }
+tr.off td{cursor:default !important;}
+td.farecell{background-image: url(../../img/bg_white.gif) !important;background-position: 10px;background-repeat: repeat-y;padding-left:15px;}
+.FFCO-table col.first{width:30px;}
+.FFCO-table col.second{width:100px;}
+.FFCO-table col.third, .FFCO-table col.fourth,{width:100px;}
+.FFCO-table col.fifth,.FFCO-table col.sixth,.FFCO-table col.seventh{width:auto;}
+td.off{background-color: #eaeceb; }
+#FFCC td.off span {
+    display: inline-block;
+    height: 20px;
+    line-height:20px;
+}
+/* Benefits Table */
+
+#benefitsReloadedWrapper{
+  background: none!important;
+  padding:0!important;
+  margin: 0!important;
+}
+
+#fares #benefitsReloaded_1{
+  background: #fff!important;
+  border-collapse: collapse;
+}
+
+.benefitsReloaded th{
+  font-weight: normal;
+  border: 1px solid #d4d5d7;
+}
+
+.benefitsReloaded td.bg-grad1{
+  border: 1px solid #d4d5d7;
+  vertical-align:middle;
+  padding: 0!important;
+}
+
+.benefitsReloaded .bg-grad1 div{
+  color: #000;
+  border: none!important;
+  padding: 6px!important;
+  text-align: left!important;
+  background: none!important;
+}
+
+.benefitsReloaded td.bg-grad1 div{text-align: left!important;}
+
+.benefitsReloaded td.first{text-align: left!important;}
+
+#fares .benefitsReloaded .first td{border-top: 1px solid #d4d5d7;}
+
+#fares .benefitsReloaded .first td.first{border-top: 1px solid #d4d5d7;}
+
+#fares .benefitsReloaded .last td{border-bottom: 1px solid #d4d5d7;}
+
+#fares .benefitsReloaded .last td.first{border-bottom: 1px solid #d4d5d7;}
+
+#fares .benefitsReloaded td.last{border-right: 1px solid #d4d5d7;}
+
+
+#benefitsReloadedTable td {
+  vertical-align:middle;
+}
+
+#benefitsReloadedTable td.selected{
+  font-weight: bold;
+  white-space: nowrap;
+}
+#fares .benefitsReloaded .last td.hovered,#fares .fareFamilyReloaded .last td.hovered{
+border-bottom: 1px solid #505050 !important;
+}
+#fares .fareFamilyReloaded th.hovered{
+border-top: 1px solid #505050 !important;
+border-right: 1px solid #505050 !important;
+border-left: 1px solid #505050 !important;
+}
+#fares .benefitsReloaded .first td.hovered{
+border-top: 1px solid #505050 !important;
+}
+.selected{font-weight: bold;}
+
+#fares .highLightedTable td.hovered{
+  border-right:
+  cursor: pointer;
+}
+#business .fareFamilyReloaded td.selected.hovered {
+background: #E2ECE7 !important;
+font-weight: bold !important;
+border-bottom: 3px solid #5e967e !important;
+}
+#business .benefitsReloaded .selected.hovered{
+background: #E2ECE7!important;
+border-left: 3px solid #5E967E!important;
+border-right: 3px solid #5E967E!important;
+border-bottom: 1px dotted #D7D7D7!important;
+border-top: 0!important;
+}
+
+#fares .highLightedTable td.hovered div{background: transparent!important;}
+
+#fares .benefitsReloaded td div{cursor:default!important;}
+
+/* .resize-font #fares .benefitsReloaded td div{white-space: nowrap;} */
+
+#fares .benefitsReloaded td.hovered .ico-miles{background-position: -50px 0;}
+
+#fares .benefitsReloaded td.hovered .ico-check{background-position: -50px -50px;}
+
+#fares .benefitsReloaded td.hovered .ico-cross{background-position: -50px -100px;}
+
+#fares .benefitsReloaded td.hovered .ico-aa{background-position: -50px -150px;}
+
+/* Fares Reloaded Table */
+
+.fareFamilyReloaded{
+  border-collapse: collapse!important;
+  background: none!important;
+  margin-bottom: 6px!important;
+}
+
+.container_7 .col-title{width: 136px;}
+.container_7 .col{width: 99px;}
+.container_6 .col-title{width: 136px;}
+.container_6 .col{width: 118px;}
+.container_5 .col-title{width: 136px;}
+.container_5 .col{width: 146px;}
+.container_4 .col-title{width: 136px;}
+.container_4 .col{width: 195px;}
+.container_3 .col-title{width: 305px!important;}
+.container_3 .col{width: 297px;}
+.container_2 .col-title{width: 360px;}
+.container_2 .col{width: 360px;}
+
+.fareFamilyReloaded td.first, .fareFamilyReloaded th.first { text-align: left!important; vertical-align:middle!important;}
+.fareFamilyReloaded th a { color:#0F7E92!important;}
+.fareFamilyReloaded th a:hover { color:#0F7E92!important;}
+.KA .fareFamilyReloaded th a { color:#284C89!important;}
+.KA .fareFamilyReloaded th a:hover { color:#284C89!important;}
+.fareFamilyReloaded th.first { color:#000;  font-weight:bold;}
+#fares .fareFamilyReloaded td { background-color:#FFF!important;}
+.fareFamilyReloaded td div { padding:5px 3px 5px 0px!important; border: 0px solid;}
+.fareFamilyReloaded .selected div {padding: 3px!important;}
+.fareFamilyReloaded .bg-grad1 div{
+  color: #000;
+  border: none!important;
+  padding: 6px!important;
+  _padding: 0px 6px;
+  text-align: left!important;
+  }
+
+.fareFamilyReloaded td input{background: transparent!important;}
+#pageAVAI tr.flightEffectOff td,#pageAVAC tr.flightEffectOff td {cursor:default !important;}
+#pageAVAI tr.selectedFlight td, #pageAVAC tr.selectedFlight td{ border:0px!important; background:none repeat scroll 0 0 #E2ECE7 !important}
+#pageAVAI tr.selectedFlight td.bdrLeft,#pageAVAC tr.selectedFlight td.bdrLeft { border-left:3px solid #5E967E!important; margin-left:-1px;}
+#pageAVAI tr.selectedFlight td.bdrRight, #pageAVAC tr.selectedFlight td.bdrRight{ border-right:3px solid #5E967E!important;}
+#pageAVAI tr.selectedFlight td.bdrBtm, #pageAVAC tr.selectedFlight td.bdrBtm{ border-bottom:3px solid #5E967E!important;}
+#pageAVAI tr.selectedFlight td.bdrTop, #pageAVAC tr.selectedFlight td.bdrTop{ border-top:3px solid #5E967E!important;}
+#pageAVAI tr.selectedFlight td, #pageAVAC tr.selectedFlight td{font-weight:bold;}
+
+#pageAVAI.KA tr.selectedFlight td, #pageAVAC.KA tr.selectedFlight td{ border:0px!important; background:none repeat scroll 0 0 #dcd3bc !important}
+#pageAVAI.KA tr.selectedFlight td.bdrLeft,#pageAVAC.KA tr.selectedFlight td.bdrLeft { border-left:3px solid #a59561 !important; margin-left:-1px;}
+#pageAVAI.KA tr.selectedFlight td.bdrRight, #pageAVAC.KA tr.selectedFlight td.bdrRight{ border-right:3px solid #a59561 !important;}
+#pageAVAI.KA tr.selectedFlight td.bdrBtm, #pageAVAC.KA tr.selectedFlight td.bdrBtm{ border-bottom:3px solid #a59561 !important;}
+#pageAVAI.KA tr.selectedFlight td.bdrTop, #pageAVAC.KA tr.selectedFlight td.bdrTop{ border-top:3px solid #a59561 !important;}
+
+#business .benefitsReloaded .first .selected,#fares .benefitsReloaded .first td.selected.hovered {
+border-top:3px solid #5e967e !important;
+}
+
+#business .benefitsReloaded .last .selected,#fares .benefitsReloaded .last td.selected.hovered {
+border-bottom:3px solid #5e967e !important;
+}
+
+.KA #business .benefitsReloaded .first .selected {
+border-top:3px solid #a59561  !important;
+}
+
+.KA #business .benefitsReloaded .last .selected {
+border-bottom:3px solid #a59561  !important;
+}
+
+table.consentBoxContainer .rulesKR {
+    background-color: #fff !important;
+    border: 1px solid #cedbca;
+    height: 100px;
+    overflow: auto;
+    padding: 10px !important;
+    text-align: left !important;
+}
+
+table.consentBoxContainer .rulesKR p {
+ font-weight: 500;
+
+}
+#fareFamilyReloadedTable .unselectable div{
+	text-align:center;
+}

@@ -1,0 +1,54 @@
+.noImage .btn input, .noImage #buttons input {
+     background: linear-gradient(to bottom, #057e92 61%, #057e92 100%) repeat scroll 0px 0px rgba(0, 0, 0, 0) ! important;
+     border: 0 none;
+     border-radius: 2px;
+     color: #ffffff;
+     outline: 0 none;
+     padding: 6px 16px 7px 14px;
+}
+.KA.noImage #buttons input , .KA.noImage .btn input{
+    background: linear-gradient(to bottom, #e91a22 61%, #d41301 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 0 none;
+    border-radius: 2px;
+    color: #ffffff;
+    outline: 0 none;
+    padding: 6px 16px 7px 14px;
+}
+
+.KA.noImage #buttons input[type="submit"], .KA.noImage #buttons input[type="button"], .KA .buttons input[type="button"]{
+    background: linear-gradient(to bottom, #e91a22 61%, #d41301 100%) repeat scroll 0px 0px rgba(0, 0, 0, 0) ! important;
+     border-radius: 2px;
+     border: 0px none;
+     color: #ffffff;
+     outline: 0px none;
+     padding: 6px 16px 7px 14px;
+}
+
+.noImage input[type="radio"] {
+  display:inline-block;
+}
+.noImage  tr.off input {
+    display: none;
+}
+#pageFFCR.noImage label.css-span{
+     display: none !important;
+}
+
+.noImage .jqTransformSelectWrapper div{
+display: none !important;
+}
+.noImage .jqTransformSelectWrapper select{
+display: block !important;
+}
+
+.noImage  input[type="checkbox"] {
+    position: relative !important;
+}
+
+.noImage #buttons.redButton input[type="submit"],.noImage #buttons.redButton input[type="button"],.noImage .buttons.redButton input[type="button"] {
+    background: linear-gradient(to bottom, #c03b4e 0%, #af1f36 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+#business .dycPaymentMsg{margin-bottom: 20px; float:left; border:1px solid #CAD8D8;font-size:0.8em;padding:20px 20px 10px;width:100%;}
+.dycDiv{padding:10px 20px 20px 10px; float: left;}
+.smallText{font-size:0.77em;padding-top:5px;}
+
