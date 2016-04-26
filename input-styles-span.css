@@ -53,7 +53,7 @@ span.clr ,label.clr,.css-label-cbk.clr{background-position: 0 0; font-weight: no
 						}
 						*/
 						.css-label-cbk{
-							background-image: url(../../img/formelements.png)!important;
+							background-image: url(formelements.png)!important;
 							height:22px!important;
 							display:inline-block;
 							line-height:22px!important;

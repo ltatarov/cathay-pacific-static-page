@@ -621,7 +621,7 @@ a {
   text-decoration: none;
 }
 a.cal {
-  background: url("../../img/btn-calendar.gif") no-repeat scroll left center ;
+  background: url("btn-calendar.gif") no-repeat scroll left center ;
   margin-bottom: 10px;
   font-size: 14px;
     display: inline-block;
